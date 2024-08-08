@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+:root {
+/* == Sizes == */
+    --size_md: 768px;
+    --size_lg: 1440px;
+/* == Colors == */
+    --stone-100: hsl(30, 54%, 90%);
+    --stone-150: hsl(30, 18%, 87%);
+    --stone-600: hsl(30, 10%, 34%);
+    --stone-900: hsl(24, 5%, 18%);
+    --brown-800: hsl(14, 45%, 36%);
+    --rose-800: hsl(332, 51%, 32%);
+    --rose-50: hsl(330, 100%, 98%);
+/* == Fonts == */
+    --main-font: "Outfit";
+    --title-font: "Young Serif";
+}
+
+*{
+    font-family: var(--main-font) , 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.font_young{
+    font-family: var(--title-font), Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
