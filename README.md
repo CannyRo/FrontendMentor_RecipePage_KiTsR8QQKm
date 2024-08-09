@@ -44,9 +44,9 @@ Want some support on the challenge? [Join our community](https://www.frontendmen
 
 ### What I learned
 
-I've learned that in some cases, the semantic approach with Html tags closer to the design reality is not necessarily adapted to the styles to be applied. such as for stylizing <hr/> tags and list bullet points (::marker).
+I've learned that in some cases, the semantic approach with Html tags closer to the design reality is not necessarily adapted to the styles to be applied. such as for stylizing hr tags and list bullet points (::marker).
 
-Instead of <hr/> I finally used simple stylized <div>.
+Instead of hr I finally used simple stylized div.
 
 ```html
 <div class="hr"></div>
@@ -59,7 +59,8 @@ Instead of <hr/> I finally used simple stylized <div>.
 }
 ```
 
-Instead of styling li::marker on list bullet points I finally used a none styling list and some <span>
+Instead of styling li::marker on list bullet points I finally used a none styling list and some span
+
 ```html
 <ul>
   <li>
