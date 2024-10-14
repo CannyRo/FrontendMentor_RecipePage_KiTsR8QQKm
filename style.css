@@ -34,7 +34,8 @@ body{
     align-items: center;
 }
 ul, ol{
-    list-style: none;
+    /* list-style: none; */
+    list-style: inside;
 }
 li{
     display: flex;
