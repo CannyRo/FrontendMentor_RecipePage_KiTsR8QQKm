@@ -36,12 +36,18 @@ body{
 ul, ol{
     /* list-style: none; */
     list-style: inside;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 li{
     display: flex;
     align-items: center;
     margin-bottom: 8px;
     padding-left: 8px;
+    width: 100%;
 }
 hr{
     border-color: var(--stone-150);
